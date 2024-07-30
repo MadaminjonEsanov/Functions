@@ -1,0 +1,39 @@
+funksiyalar
+
+    1. anonim funksiya
+        - nomsiz
+        - doim biron bir funksiya ichida yaratiladi
+        - yaratilgan joyida call qiliniadi
+        - syntax:
+            func () () {
+
+            }()
+
+    2. function expression
+
+        var fn = func() {
+
+        }
+
+    3. function closure
+
+        func foo() func() int {
+
+            // qaytarilgan funksiya closure funksiya
+            return func() int {
+                return 0
+            }
+        }
+
+    4. variadic funksiya:
+        - istalgancha argument qabul qila oladigan funksiya variadik funksiya deyiladi
+
+        example:
+            func name(variableName ...Type) {
+
+            }
+
+
+function signature - 
+
+    func name(varName type) (type, type) {}  -- function signature: name(varName type) (type, type)
