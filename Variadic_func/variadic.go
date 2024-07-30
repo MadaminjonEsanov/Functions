@@ -9,7 +9,7 @@ func main() {
 
 func GetMax(numbers ...int) int {
 	if numbers == nil {
-		return 0
+		return 0				//kattasini topish
 	}
 
 	max := numbers[0]
